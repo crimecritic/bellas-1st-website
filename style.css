@@ -7,14 +7,14 @@ body{
 }
 
 h1 {
-    font-family: Helvetica, sans-serif;
+    font-family: Helve, sans-serif;
 }
 
 
 p {
     color:#208;
-    margin-right:10;
-    margin-light:10;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 .joke{
