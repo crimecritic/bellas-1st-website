@@ -3,15 +3,15 @@
 
 body{
 	color: black;
-    font-family: Helvetica, sans-serif;
 }
 
 h1 {
-    font-family: Helve, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 
 p {
+    font-family: "Open Sans", sans-serif;
     color:#208;
     margin-left:10px;
     margin-right:10px;
