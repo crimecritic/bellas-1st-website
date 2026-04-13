@@ -2,23 +2,32 @@
 
 
 body{
-	color: white;
+	background-color: black;
 }
 
 h1 {
     font-family: "Montserrat", sans-serif;
     text-align: left;
     margin-left: 10px;
-    font-size: 50px;
+    font-size: 55px;
+    color: white;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
 }
 
 
 p {
     font-family: "Open Sans", sans-serif;
-    color:darkred;
+    color:whitesmoke;
     text-align: left;
     margin-left:10px;
-    margin-right:10px;
+    margin-right:0px;
 }
 
 #container{
@@ -30,21 +39,23 @@ p {
 
 #nav {
     padding: 0;
-    list-style-type: none;
+    list-style-type:none;
 }
 
 #nav li {
+    display:inline-block;
     margin: 0;
     padding: 0;
     margin-top: 10px;
+    margin-left:10px;
     border-bottom: 1px solid #ccc;
     text-decoration: none;
 }
 
 #nav a:link, a:visited {
     display:block;
-    color: darkred;
-    background-color: #;
+    color: white;
+    background-color: #0000;
     font-weight: 500;
     text-decoration: none;
     padding: 5px;
@@ -52,12 +63,12 @@ p {
 }
 
 #nav a:hover, a:active {
-    background-color: white;
+    background-color: black;
 }
 
 .navigation{
   list-style: none;
-  background: gray;
+  background: white;
   margin:0;
   padding: 0;
   display: flex;
@@ -76,7 +87,6 @@ p {
 
 .header {
     grid-area: a;
-    background-image:url("background.jpg");
       background-repeat: no-repeat;
       background-size: cover; 
       background-attachment: fixed; 
@@ -92,7 +102,8 @@ p {
   }
   .image {
     grid-area: d;
-    margin-top: 0;
+    margin-top: 0px;
+    margin-left:75px;
   }
 
   .header p:first-of-type, .section2 p:first-of-type {
@@ -119,16 +130,16 @@ p {
 @media (min-width: 200px) {
 
   .navigation {
-    flex-flow: row;
-    justify-content:flex-flow;  }
+    flex-flow: wrap;
+    justify-content: flex-flow;  }
     article {
     display: grid;
-    grid-template-columns: 70px 1fr 1fr;
+    grid-template-columns: 10px 1fr 1fr;
     grid-gap: 10px;
     grid-template-areas:
         "a a a"
-        "b b b"
-        "c c d";
+        "c c d"
+        "b b b";
   }
 }
 
@@ -143,8 +154,8 @@ p {
     grid-gap: 10px;
     grid-template-areas:
         "a a a"
-        "b b d"
-        "c c c";
+        "c c c"
+        "b b d";
   }
 }
 
@@ -159,8 +170,8 @@ p {
     grid-gap: 10px;
     grid-template-areas:
         "a a a"
-        "b b d"
-        "c c .";
+        "c c c"
+        "b b d";
   }
 }
 
