@@ -30,6 +30,18 @@ p {
     margin-right:0px;
 }
 
+footer{
+  font-family: "Open Sans", sans-serif;
+    color:whitesmoke;
+    font-size:15px;
+    text-align: left;
+    margin-left:150px;
+    margin-right:0px;
+}
+address{
+  margin-left:10px;
+}
+
 #container{
     
     width: 80%;
