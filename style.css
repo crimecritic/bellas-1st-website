@@ -3,7 +3,10 @@
 
 body{
 	background-color: black;
+  
 }
+
+
 
 h1 {
     font-family: "Montserrat", sans-serif;
@@ -37,6 +40,8 @@ footer{
     text-align: left;
     margin-left:150px;
     margin-right:0px;
+    
+    
 }
 address{
   margin-left:10px;
